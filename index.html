@@ -18,7 +18,13 @@
   -->
   <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
 
- 
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
   <!-- 
     - custom css link
   -->
@@ -31,7 +37,7 @@
     - preload images
   -->
   <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
-  <link rel="preload" as="image" href=".assets/images/Blog.svg">
+  <link rel="preload" as="image" href="./assets/images/Blog.svg">
   <script src="https://cdn.jsdelivr.net/npm/smoothscroll-polyfill@0.4.3/dist/smoothscroll.min.js"></script>
 
 </head>
@@ -44,7 +50,7 @@
   -->
 
   <header class="header" data-header>
-    <div class="container" id="slide1">
+    <div class="container">
 
       <a href="#" class="logo">
         <img src="./assets/images/logo-dark.svg" width="64" height="24" alt="pranavi home">
@@ -88,7 +94,6 @@
           <a href="tel:+919573124028" class="contact-link"> +919573124028 </a>
         </div>
 
-
         <ul class="social-list">
 
           <li>
@@ -121,6 +126,10 @@
 
     </div>
   </header>
+
+
+
+
   <main>
     <article>
 
@@ -129,7 +138,7 @@
       -->
 
       <section class="section hero" aria-label="home">
-        <div class="container">
+        <div class="container" id="slide1">
 
           <figure class="hero-banner">
             <img src="./assets/images/hero-banner.jpg" width="560" height="540" alt="Pranavi" class="w-100"
@@ -149,9 +158,9 @@
               Hello People,I'm Pranavi Akula. I am enthusiastic person who likes to travel and try new dishes.Wherever I go I make sure to capture the best lively photos of the environment and food.</p>
 
             <div class="btn-wrapper" data-reveal="bottom" data-reveal-delay="1s">
-              <a href="#slide2" class="btn btn-primary">Scroll down</a>
+              <a href="#" class="btn btn-primary">Scroll down</a>
 
-              <a href="#slide4" class="btn btn-secondary">Contact Me</a>
+              <a href="#" class="btn btn-secondary">Contact Me</a>
             </div>
 
           </div>
@@ -422,11 +431,11 @@
 
           <section id="image-section">
             <div class="image-container">
-                <a href="food.html">
+                <a href="./food.html">
                     <img src="./assets/images/A.JPG" alt="Food Image">
                     <h3>The Food Talks</h3>
                 </a>
-                <a href="places.html">
+                <a href="./places.html">
                     <img src="./assets/images/B.jpg" alt="Places Image">
                     <h4>Where to next?</h5>
                 </a>
@@ -434,12 +443,14 @@
         </section>
 
 
-     <!-- 
+      <!-- 
+             
+      
         - #CONTACT
       -->
 
       <section class="section contact" aria-label="contact">
-        <div class="container" id="slide4">
+        <div class="container" id="slide4"> 
 
           <div class="contact-card">
 
@@ -449,11 +460,10 @@
                 <img src="./assets/images/icon-5.svg" width="44" height="44" loading="lazy" alt="envelop icon">
               </div>
 
-              <h2 class="h2 section-title">Thank you guyss!!</h2>
+              <h2 class="h2 section-title">Thank you Guys..!!</h2>
 
               <p class="section-text">
-               This is all about my blog Have any questions? Reach out to me from
-                this contact form and I will get back to you shortly.
+                This is all about my blog,and about my food clicks.
               </p>
 
             </div>
@@ -479,6 +489,7 @@
 
     </article>
   </main>
+
 
 
   <!-- 
